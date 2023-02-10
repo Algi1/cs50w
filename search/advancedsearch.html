@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
+    <body>
+        <div>
+            <ul class="navbarmain">
+                <li class="navbar-item"><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <p class="h1-advancedsearch">Advanced Search</p>    
+        <div class="border-as"></div>
+        <div class="div-as">
+            <p class="h2-advancedsearch">Find pages with...</p>
+            <form action="https://google.com/search">
+                <div class="rowinput">
+                    <div class="left">
+                        <p class="pas">all these words:</p>
+                    </div>
+                    <div class="right">
+                        <input class="form-control" type="text" name="as_q">
+                    </div>
+                </div>
+                <div class="rowinput">
+                    <div class="left">
+                        <p class="pas">this exact word or phrase:</p>
+                    </div>
+                    <div class="right">
+                        <input class="form-control" type="text" name="as_epq">
+                    </div>
+                </div>
+                <div class="rowinput">
+                    <div class="left">
+                        <p class="pas">any of these words:</p>
+                    </div>
+                    <div class="right">
+                        <input class="form-control" type="text" name="as_oq">
+                    </div>
+                </div>
+                <div class="rowinput">
+                    <div class="left">
+                        <p class="pas">none of these words:</p>
+                    </div>
+                    <div class="right">
+                        <input class="form-control" type="text" name="as_eq">
+                    </div>
+                </div>
+                <div class="asbtn">
+                    <button type="submit" class="btn btn-primary">Advanced Search</button>
+                    <div class="left"></div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
